@@ -1,16 +1,17 @@
 include ':app-pos'
 
+include ':core'
+
 include 'ui:addtocart'
 include 'ui:shared'
 include 'ui:splash'
 include 'ui:login'
 include 'ui:home'
 
-
 include ':libraries:dagger'
 include ':libraries:ui'
 include ':libraries:restclient'
 
-include ':core'
+
 
 
