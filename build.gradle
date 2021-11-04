@@ -84,7 +84,7 @@ buildscript {
 
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath 'com.android.tools.build:gradle:7.0.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
         //Solution for NoSuchElementException
         classpath 'com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta07'
